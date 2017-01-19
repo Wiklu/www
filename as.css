@@ -60,12 +60,7 @@ a:hover {
     color: white; }
 
 img.mock-up {
+    margin: 0px;
     width: 100%; }
-    
-#rectangle-black {
-     width: 70%;
-     height: 3px;
-     background: black;
-     margin: 5% auto 5% auto; }   
 
 }
