@@ -1,19 +1,11 @@
-@media only screen and (max-width: 600px) {
 body {
     margin: 0px;
-    font-family: 'Playfair Display', serif;
     text-align: center;
     color: black; }
 
 div.portfolioheader {
     height: 100%;
     background-color: black; }
-    
-img.logotype {
-    display: block;
-    margin: auto;
-    width: 70%; 
-    padding-top: 40%; }
 
 img.name {
     display: block;
@@ -35,9 +27,82 @@ img.name {
     margin-left: auto;
     margin-right: auto;
     text-decoration: none; }
+
+a:link {
+    text-decoration: none;
+    color: white; }
+
+a:hover {
+    text-decoration: underline;
+    color: white; }
+
+img.mock-up {
+    margin: 5% 0px 0px 0px;;
+    max-width: 100%; }
+
+@media only screen and (min-width: 1001px) {
+    
+img.logotype {
+    display: block;
+    margin: auto;
+    width: 60%; 
+    padding-top: 10%; }
+    
+h1.company {
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: white; }
+
+h2.company {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0,5px; 
+    margin-top: 4%;
+    margin-bottom: 10%; }
+}
+@media only screen and (max-width: 1000px) and (min-width: 601px) {
+    
+img.logotype {
+    display: block;
+    margin: auto;
+    width: 70%; 
+    padding-top: 20%; }
+    
+h1.company {
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: white; }
+
+h2.company {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0,5px; 
+    margin-top: 10%;
+    margin-bottom: 20%; }
+}
+@media only screen and (max-width: 600px) {
+    
+img.logotype {
+    display: block;
+    margin: auto;
+    width: 70%; 
+    padding-top: 25%; }
     
 h1.company {
     font-size: 20px;
+    font-family: 'Playfair Display', serif;
     margin-left: 10%;
     margin-right: 10%;
     font-weight: 300;
@@ -52,16 +117,4 @@ h2.company {
     letter-spacing: 0,5px; 
     margin-top: 10%;
     margin-bottom: 20%; }
-
-a:link {
-    text-decoration: none;
-    color: white; }
-
-a:hover {
-    text-decoration: underline;
-    color: white; }
-
-img.mock-up {
-    margin: 0px;
-    max-width: 100%; }
 }
