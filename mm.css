@@ -1,0 +1,67 @@
+@media only screen and (max-width: 600px) {
+body {
+    margin: 0px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: black; }
+
+div.portfolioheader {
+    height: 100%;
+    background-color: black; }
+    
+img.logotype {
+    display: block;
+    margin: auto;
+    width: 70%; 
+    padding-top: 40%; }
+
+img.name {
+    display: block;
+    margin: 5% auto 5% auto;
+    width: 50%; }
+
+#rectangle {
+     width: 70%;
+     height: 3px;
+     background: white;
+     margin-top: 100px;
+     margin-left: auto;
+     margin-right: auto; }
+
+.description {
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none; }
+    
+h1.company {
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: white; }
+
+h2.company {
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0,5px; 
+    margin-top: 10%;
+    margin-bottom: 20%; }
+
+a:link {
+    text-decoration: none;
+    color: white; }
+
+a:hover {
+    text-decoration: underline;
+    color: white; }
+
+img.mock-up {
+    margin: 0px;
+    max-width: 100%; }
+}
