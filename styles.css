@@ -299,7 +299,7 @@ div.copyright { font-size: 0.75rem; }
 @media only screen and (max-width: 480px) and (min-width: 321px) {
     
 /* TO CHANGE */    
-html { font-size: 18px; }  
+html { font-size: 16px; }  
     
 body {
     text-align: left; 
@@ -317,7 +317,7 @@ h1.header {
     margin-bottom: 1rem; }
 
 h2.header {
-    font-size: 1,75rem; 
+    font-size: 2rem; 
     margin: 1rem 0 1rem 0; }
 
 h3.header {
@@ -342,7 +342,7 @@ div.copyright { font-size: 0.75rem; }
 @media only screen and (max-width: 320px) {
     
 /* TO CHANGE */
-html { font-size: 16px; }  
+html { font-size: 14px; }  
     
 body {
     text-align: left; 
@@ -361,7 +361,7 @@ h1.header {
     margin-bottom: 1rem; }
 
 h2.header {
-    font-size: 1,75rem; 
+    font-size: 2rem; 
     margin: 1rem 0 1rem 0; }
 
 h3.header {
