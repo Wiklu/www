@@ -45,7 +45,16 @@ div.copyright {
     font-weight: 100; 
     letter-spacing: 0.6px;
     text-align: center;
-    margin: 15%; }
+    margin: 3%; }
+
+#rectangle {
+     width: 60%;
+     height: 3px;
+     background: black;
+     margin-top: 10%;
+     margin-bottom: 1%;
+     margin-left: auto;
+     margin-right: auto; }
 
 @media only screen and (min-width: 1001px) {
 
@@ -74,7 +83,9 @@ h3.header {
 br.header { display: none; }
 br.header1 { display: none; }    
 .button_black {  border: 8px solid black; }   
-div.index_portfolio { margin-top: 10%; 
+div.index_portfolio { 
+    margin-top: 10%; 
+    margin-bottom: 0%;
     margin-left: 7%; 
     margin-right: 7%; }
 img.index_mockup {
@@ -126,7 +137,7 @@ img.index_mockup {
     
 div.index_mockup_description { display: none; }
     
-div.copyright { font-size: 0.75rem; }
+div.copyright { font-size: 1,5rem; }
 }
 @media only screen and (max-width: 900px) and (min-width: 801px) {
     
