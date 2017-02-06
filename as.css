@@ -43,6 +43,27 @@ h2.company {
     text-transform: uppercase;
     letter-spacing: 0,5%; }
 
+div.description_mockup {margin: 10% 0 1% 0;}
+
+h3.description {
+    font-family: 'Playfair Display', serif;       
+    font-weight: 100;
+    color: black;
+    margin: 2% auto 2% auto;
+    }
+
+#rectangle_black {
+     width: 70%;
+     height: 2px;
+     background: black;
+     margin-top: 15px;
+     margin-left: auto;
+     margin-right: auto; }
+
+div.footer_rabbit {margin: 7% auto 8% auto;}
+
+img.footer_rabbit {width: 20%; }
+
 img.mock-up {
     margin: 5% 0px 0px 0px;;
     max-width: 100%; }
@@ -68,6 +89,8 @@ h2.company {
     font-size: 20px; 
     margin-top: 4%;
     margin-bottom: 10%; }
+    
+h3.description {font-size: 24px; }       
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 601px) {
@@ -86,6 +109,8 @@ h2.company {
     font-size: 16px;
     margin-top: 10%;
     margin-bottom: 20%; }
+    
+h3.description {font-size: 16px; }    
 }
 
 @media only screen and (max-width: 600px) {
@@ -104,4 +129,6 @@ h2.company {
     font-size: 12px;
     margin-top: 10%;
     margin-bottom: 20%; }
+    
+h3.description {font-size: 10px; }        
 }
